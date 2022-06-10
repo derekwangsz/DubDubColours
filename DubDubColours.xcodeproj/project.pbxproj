@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		ED9229182852405C00E272BE /* DubDubColoursApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9229172852405C00E272BE /* DubDubColoursApp.swift */; };
-		ED92291A2852405C00E272BE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9229192852405C00E272BE /* ContentView.swift */; };
+		ED92291A2852405C00E272BE /* ColoursView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9229192852405C00E272BE /* ColoursView.swift */; };
 		ED92291C2852405D00E272BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED92291B2852405D00E272BE /* Assets.xcassets */; };
 		ED92291F2852405D00E272BE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED92291E2852405D00E272BE /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,9 +16,10 @@
 /* Begin PBXFileReference section */
 		ED9229142852405C00E272BE /* DubDubColours.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DubDubColours.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED9229172852405C00E272BE /* DubDubColoursApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DubDubColoursApp.swift; sourceTree = "<group>"; };
-		ED9229192852405C00E272BE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ED9229192852405C00E272BE /* ColoursView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColoursView.swift; sourceTree = "<group>"; };
 		ED92291B2852405D00E272BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED92291E2852405D00E272BE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ED922927285241D900E272BE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +53,8 @@
 			isa = PBXGroup;
 			children = (
 				ED9229172852405C00E272BE /* DubDubColoursApp.swift */,
-				ED9229192852405C00E272BE /* ContentView.swift */,
+				ED9229192852405C00E272BE /* ColoursView.swift */,
+				ED922927285241D900E272BE /* README.md */,
 				ED92291B2852405D00E272BE /* Assets.xcassets */,
 				ED92291D2852405D00E272BE /* Preview Content */,
 			);
@@ -137,7 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED92291A2852405C00E272BE /* ContentView.swift in Sources */,
+				ED92291A2852405C00E272BE /* ColoursView.swift in Sources */,
 				ED9229182852405C00E272BE /* DubDubColoursApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

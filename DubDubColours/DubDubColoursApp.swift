@@ -11,7 +11,7 @@ import SwiftUI
 struct DubDubColoursApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ColoursView()
         }
     }
 }
